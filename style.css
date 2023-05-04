@@ -370,3 +370,8 @@ li i {
 footer p {
     font-size: .7rem;
 }
+
+#calientes i, #frappes i, #a-las-rocas i {
+    font-size: .7rem;
+    width: 100%;
+}
