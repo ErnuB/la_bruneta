@@ -112,7 +112,7 @@ nav ul{
 }
 
 .nav-item {
-    margin: 0;
+    margin: -.1rem;
     padding: 0;
 }
 
@@ -201,6 +201,7 @@ nav ul{
 
 .grid {
     display: grid;
+    grid-template-columns: 3fr auto;
 }
 
 .grid h4 {
@@ -269,13 +270,14 @@ nav ul{
 }
 
 #a-las-rocas li, #calientes li, #frappes li {
-    padding-top: .7rem;
-    line-height: .5rem;
+    padding-top: .2rem;
+    line-height: .1rem;
+    align-self: stretch;
 }
   
 ul li {
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 ul h3 {
